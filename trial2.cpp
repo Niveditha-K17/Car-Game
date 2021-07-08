@@ -180,5 +180,5 @@ void scoreboard()
 void crash(int x1, int y1)
 {
      if ( (x1+20 >=100+c2) && (x1<= 130+c2) && (y1+60>=150-c1)  && (y1<=190-c1))
-	 scoreboard(); //ADD THE SCOREBOARD FUNCTION HERE INSTEAD OF exit(0);
+	 scoreboard(); 
 }
